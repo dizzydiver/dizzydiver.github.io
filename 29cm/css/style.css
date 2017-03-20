@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+/* common */
+body {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Montserrat', 'Spoqa Han Sans', 'Nanum Gothic Coding', sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #3F89E7;
+}
+button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left:0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+}
+.header a{
+  display: block;
+  padding:20px;
+}
+.header button {
+  padding:20px;
+}
+
+
+.side-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #222;
+  color:#fff;
+  width: 54%;
+  height: 100%;
+  text-transform:uppercase;
+  z-index: 10000;
+}
+
+.side-nav .tool-area {
+  padding:20px;
+  text-align: right;
+}
+.side-nav .nav-area {
+  padding:20px 30px;
+  font-size:1.35em;
+  font-weight:600;
+  line-height: 1.6;
+}
+.side-nav .nav-area ul {
+  margin-bottom: 30px;
+}
+.side-nav .mem-area {
+  bottom:0;
+  background: #222;
+}
+
+
+
+
+
+
+
+
+
